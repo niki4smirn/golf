@@ -1,0 +1,14 @@
+{
+    "host": "https://api.eu-central-1.aws.tinybird.co",
+    "id": "1d03b69c-c741-4783-a237-5606afb9b123",
+    "name": "golf",
+    "scope": "user",
+    "token": "p.eyJ1IjogIjFkMDNiNjljLWM3NDEtNDc4My1hMjM3LTU2MDZhZmI5YjEyMyIsICJpZCI6ICIyYTIwZmRlOC02MGMxLTQ3M2QtOTY2YS04ZWIzOTg4NWJmMmMiLCAiaG9zdCI6ICJhd3MtZXUtY2VudHJhbC0xIn0.pL-WlIP2luSS3n7yHKI9Yn8-8oFAg7nSIs47UocjD8c",
+    "tokens": {
+        "https://api.eu-central-1.aws.tinybird.co": "p.eyJ1IjogIjFkMDNiNjljLWM3NDEtNDc4My1hMjM3LTU2MDZhZmI5YjEyMyIsICJpZCI6ICIyYTIwZmRlOC02MGMxLTQ3M2QtOTY2YS04ZWIzOTg4NWJmMmMiLCAiaG9zdCI6ICJhd3MtZXUtY2VudHJhbC0xIn0.pL-WlIP2luSS3n7yHKI9Yn8-8oFAg7nSIs47UocjD8c"
+    },
+    "user_email": "kitos.smirnov@gmail.com",
+    "user_id": "93cecda0-c4e3-4bd2-88f3-db14613ab499",
+    "user_token": "p.eyJ1IjogIjkzY2VjZGEwLWM0ZTMtNGJkMi04OGYzLWRiMTQ2MTNhYjQ5OSIsICJpZCI6ICI0MGFkMGEwYS04ZTM5LTQ1YWYtYWUyNy1hNTcwMTc4MDQ0MmEiLCAiaG9zdCI6ICJhd3MtZXUtY2VudHJhbC0xIn0.IiBU4AvgFwHn2N9ak4JJq0gJ2u9Pl3HZLOd6DkWt9wo",
+    "version": "0.0.1.dev289"
+}

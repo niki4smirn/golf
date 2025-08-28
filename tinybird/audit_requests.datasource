@@ -1,0 +1,13 @@
+SCHEMA >
+    `id` UInt64,
+    `timestamp` DateTime64(3),
+    `method` String,
+    `request_id` String,
+    `ip_address` String,
+    `user_agent` String,
+    `request` String,
+    `headers` String
+
+ENGINE "MergeTree"
+ENGINE_PARTITION_KEY "toYYYYMM(timestamp)"
+ENGINE_SORTING_KEY "timestamp, method"

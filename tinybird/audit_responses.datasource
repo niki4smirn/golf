@@ -1,0 +1,12 @@
+SCHEMA >
+    `id` UInt64,
+    `request_id` String,
+    `timestamp` DateTime64(3),
+    `response` String,
+    `status_code` UInt16,
+    `process_time_ms` UInt32,
+    `error` String
+
+ENGINE "MergeTree"
+ENGINE_PARTITION_KEY "toYYYYMM(timestamp)"
+ENGINE_SORTING_KEY "timestamp, request_id"
