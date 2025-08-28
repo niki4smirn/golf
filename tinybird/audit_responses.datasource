@@ -1,11 +1,11 @@
 SCHEMA >
-    `id` UInt64,
-    `request_id` String,
-    `timestamp` DateTime64(3),
-    `response` String,
-    `status_code` UInt16,
-    `process_time_ms` UInt32,
-    `error` String
+    `id` UInt64 `json:$.id`,
+    `request_id` String `json:$.request_id`,
+    `timestamp` DateTime64(3) `json:$.timestamp`,
+    `response` String `json:$.response`,
+    `status_code` UInt16 `json:$.status_code`,
+    `process_time_ms` UInt32 `json:$.process_time_ms`,
+    `error` String `json:$.error`
 
 ENGINE "MergeTree"
 ENGINE_PARTITION_KEY "toYYYYMM(timestamp)"

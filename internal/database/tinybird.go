@@ -62,7 +62,7 @@ func (t *TinybirdDatabase) InsertAuditResponse(resp *types.AuditResponse) error 
 
 // sendEvent sends an event to Tinybird Events API
 func (t *TinybirdDatabase) sendEvent(datasource string, event map[string]interface{}) error {
-	url := fmt.Sprintf("%s/events?name=%s", t.baseURL, datasource)
+	url := fmt.Sprintf("%s/v0/events?name=%s", t.baseURL, datasource)
 
 	jsonData, err := json.Marshal(event)
 	if err != nil {

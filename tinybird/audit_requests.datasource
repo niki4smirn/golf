@@ -1,12 +1,12 @@
 SCHEMA >
-    `id` UInt64,
-    `timestamp` DateTime64(3),
-    `method` String,
-    `request_id` String,
-    `ip_address` String,
-    `user_agent` String,
-    `request` String,
-    `headers` String
+    `id` UInt64 `json:$.id`,
+    `timestamp` DateTime64(3) `json:$.timestamp`,
+    `method` String `json:$.method`,
+    `request_id` String `json:$.request_id`,
+    `ip_address` String `json:$.ip_address`,
+    `user_agent` String `json:$.user_agent`,
+    `request` String `json:$.request`,
+    `headers` String `json:$.headers`
 
 ENGINE "MergeTree"
 ENGINE_PARTITION_KEY "toYYYYMM(timestamp)"
